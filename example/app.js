@@ -68,6 +68,7 @@ app.get('/fruits', function(req, res) {
 app.get('/veggies', function(req, res) {
   res.render('veggies', {
     title: 'My favorite veggies',
+    content: "Some example text.",
     veggies: veggies,
     layout: 'layout/veggie'
   });
